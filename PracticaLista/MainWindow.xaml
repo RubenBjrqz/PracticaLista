@@ -12,14 +12,20 @@
             <RowDefinition Height="214*"/>
         </Grid.RowDefinitions>
         <ListBox x:Name="lstAlumnos" Margin="10,49,660,56" Grid.RowSpan="2" SelectionChanged="lstAlumnos_SelectionChanged">
-            
+
         </ListBox>
         <TextBlock HorizontalAlignment="Left" Margin="10,27,0,161">Alumnos:</TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="174,28,0,0" TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top"/>
-        <TextBlock x:Name="lblNombre" HorizontalAlignment="Left" Margin="174,49,0,0" TextWrapping="Wrap" Text="Nombre del alumno" VerticalAlignment="Top"/>
-        <TextBlock x:Name="lblMatricula" HorizontalAlignment="Left" Margin="174,102,0,0" TextWrapping="Wrap" Text="000000" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="174,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Matrícula"/><Run Text=":"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="174,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Carrera"/><Run Text=":"/></TextBlock>
-        <TextBlock x:Name="lblCarrera" HorizontalAlignment="Left" Margin="174,162,0,0" TextWrapping="Wrap" Text="Nombre de la carrera" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="174,49,0,0" TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="lblNombre" HorizontalAlignment="Left" Margin="174,70,0,0" TextWrapping="Wrap" Text="Nombre del alumno" VerticalAlignment="Top"/>
+        <TextBlock x:Name="lblMatricula" HorizontalAlignment="Left" Margin="174,113,0,0" TextWrapping="Wrap" Text="000000" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="174,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Matrícula"/><Run Text=":"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="174,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Carrera"/><Run Text=":"/></TextBlock>
+        <TextBlock x:Name="lblCarrera" HorizontalAlignment="Left" Margin="174,161,0,0" TextWrapping="Wrap" Text="Nombre de la carrera" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="364,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Materias"/><Run Text=":"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="528,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Clave"/><Run Text=":"/></TextBlock>
+        <TextBlock x:Name="lblMateria" HorizontalAlignment="Left" Margin="528,73,0,0" TextWrapping="Wrap" Text="000000" VerticalAlignment="Top" RenderTransformOrigin="0.077,-0.896"/>
+        <TextBlock HorizontalAlignment="Left" Margin="528,100,0,0" TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="lblNombreMateria" HorizontalAlignment="Left" Margin="528,121,0,0" TextWrapping="Wrap" Text="Materia" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstMaterias" HorizontalAlignment="Left" Height="314" Margin="364,52,0,0" VerticalAlignment="Top" Width="122" Grid.RowSpan="2" SelectionChanged="lstMaterias_SelectionChanged"/>
     </Grid>
 </Window>
